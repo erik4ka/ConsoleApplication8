@@ -89,7 +89,7 @@ void printResults(double x, double eps, double approx, double exact, int steps, 
     cout << "Абсолютна різниця:         " << fabs(approx - exact) << endl;
     cout << "Кількість членів ряду:     " << steps << endl;
     if (limitReached)
-        cout << "⚠️ Досягнуто ліміт кількості кроків! Можливе зациклення.\n";
+        cout << "Досягнуто ліміт кількості кроків! Можливе зациклення.\n";
     cout << "=============================\n\n";
 }
 
